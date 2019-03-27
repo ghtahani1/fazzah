@@ -1,9 +1,15 @@
-body {
+body{ 
     font-family: 'Cairo', sans-serif;
-    background: #fff;
-    color: #000;
-    direction: rtl;
-    padding: 0 !important;
+}
+
+a:hover {
+    color: inherit!important  ;
+    text-decoration: none ; 
+    /* text-decoration-color: #000 !important;  */
+}
+
+a {
+    color: inherit ;
 }
 
 .navbar {
@@ -11,10 +17,6 @@ body {
     box-shadow: 0 5px 10px 0 #9e9e9e26;
     background: white;
     color: #707070;
-}
-
-a {
-    color: inherit ;
 }
 
 .navbar-nav .nav-item {
@@ -31,3 +33,105 @@ a {
     border: none;
 }
 
+
+.carousel-item img { 
+    position: center ; 
+}
+
+.try { padding: 50px; }
+
+.try .circle {
+    width: 98px;
+    height: 99px;
+    border-radius: 50px;
+    border: solid 1px gray;
+}
+
+
+.first-sec , .second-sec { padding: 30px ; }
+
+.first-sec h2 {padding-bottom: 40px; color: #2F3131
+}
+.first-sec p  { color: rgb(173, 168, 168); }
+.first-sec span { color: #000 ; }
+
+.first-sec .group {
+    padding-top: 30px; 
+    padding-bottom: 30px;
+    border-left: solid 1px #CFAE7B; 
+}
+
+.first-sec .col-sm , .second-sec .col-sm {
+    border-bottom: solid 4px #CFAE7B; 
+}
+
+.first-sec h3 , .second-sec h3 {
+    padding-bottom: 30px;
+}
+
+.first-sec .btn-green ,  .second-sec .btn-green {
+    margin-top: 30px;
+}
+
+#carousel-example { 
+    display: flex;
+}
+
+ .news .carousel-item img { 
+    width: 100%;
+    height: 450px;
+}
+
+
+.carousel-item {
+ 
+    border: solid goldenrod; 
+}  
+
+.news .btn-news {
+    border: solid goldenrod ; 
+    width: 182px;
+    margin-bottom: 36px;
+}
+
+.news .carousel-wrapper {
+margin-left: 50px;
+margin-right: 50px; }
+
+.news span {
+    color: goldenrod;
+    margin-right: 20px;
+}
+.carousel-wrapper .active {
+    border: solid goldenrod ; 
+    width: 182px;
+    margin-bottom: 36px;
+    background: red;
+}
+
+
+/* footer */
+
+.footer {
+    margin-top: 70px;
+    background: #158F89;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer h4 {
+    color: #CFAE7B;
+    padding-bottom: 40px;
+}
+
+.footer input {
+    border-radius: 19px;
+    width: 211px;
+    border: solid 1px gray;
+}
+.footer textarea {
+    border-radius: 20px;
+}
+
+.footer ::placeholder {
+    padding: 20px;
+}
